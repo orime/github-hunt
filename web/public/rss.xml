@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>GitHub Hunt</title>
+  <link>https://example.com/github-hunt</link>
+  <description>GitHub Hunt · 2026-03-28 日更订阅</description>
+  <item>
+    <title>openclaw/openclaw</title>
+    <link>https://github.com/openclaw/openclaw</link>
+    <guid>https://github.com/openclaw/openclaw</guid>
+    <description>Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞（TypeScript，⭐ 338,624）
+TypeScript 生态值得关注，社区验证度高</description>
+    <pubDate>Sat, 28 Mar 2026 01:09:09 GMT</pubDate>
+  </item>
+  <item>
+    <title>microsoft/vscode</title>
+    <link>https://github.com/microsoft/vscode</link>
+    <guid>https://github.com/microsoft/vscode</guid>
+    <description>Visual Studio Code（TypeScript，⭐ 183,129）
+TypeScript 生态值得关注，社区验证度高</description>
+    <pubDate>Sat, 28 Mar 2026 01:07:56 GMT</pubDate>
+  </item>
+  <item>
+    <title>vercel/next.js</title>
+    <link>https://github.com/vercel/next.js</link>
+    <guid>https://github.com/vercel/next.js</guid>
+    <description>The React Framework（JavaScript，⭐ 138,495）
+JavaScript 生态值得关注，社区验证度高</description>
+    <pubDate>Sat, 28 Mar 2026 01:07:37 GMT</pubDate>
+  </item>
+  <item>
+    <title>golang/go</title>
+    <link>https://github.com/golang/go</link>
+    <guid>https://github.com/golang/go</guid>
+    <description>The Go programming language（Go，⭐ 133,176）
+Go 生态值得关注，社区验证度高</description>
+    <pubDate>Sat, 28 Mar 2026 01:08:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Comfy-Org/ComfyUI</title>
+    <link>https://github.com/Comfy-Org/ComfyUI</link>
+    <guid>https://github.com/Comfy-Org/ComfyUI</guid>
+    <description>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.（Python，⭐ 107,131）
+Python 生态值得关注，社区验证度高</description>
+    <pubDate>Sat, 28 Mar 2026 01:06:44 GMT</pubDate>
+  </item>
+  <item>
+    <title>zed-industries/zed</title>
+    <link>https://github.com/zed-industries/zed</link>
+    <guid>https://github.com/zed-industries/zed</guid>
+    <description>Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.（Rust，⭐ 78,004）
+Rust 生态值得关注，社区验证度高</description>
+    <pubDate>Sat, 28 Mar 2026 01:07:02 GMT</pubDate>
+  </item>
+  <item>
+    <title>openai/codex</title>
+    <link>https://github.com/openai/codex</link>
+    <guid>https://github.com/openai/codex</guid>
+    <description>Lightweight coding agent that runs in your terminal（Rust，⭐ 68,013）
+Rust 生态值得关注，社区验证度高</description>
+    <pubDate>Sat, 28 Mar 2026 01:05:59 GMT</pubDate>
+  </item>
+  <item>
+    <title>karpathy/autoresearch</title>
+    <link>https://github.com/karpathy/autoresearch</link>
+    <guid>https://github.com/karpathy/autoresearch</guid>
+    <description>AI agents running research on single-GPU nanochat training automatically（Python，⭐ 58,527）
+Python 生态值得关注，社区验证度高</description>
+    <pubDate>Sat, 28 Mar 2026 01:06:27 GMT</pubDate>
+  </item>
+  <item>
+    <title>garrytan/gstack</title>
+    <link>https://github.com/garrytan/gstack</link>
+    <guid>https://github.com/garrytan/gstack</guid>
+    <description>Use Garry Tan&apos;s exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA（TypeScript，⭐ 52,470）
+TypeScript 生态值得关注，社区验证度高</description>
+    <pubDate>Sat, 28 Mar 2026 01:08:18 GMT</pubDate>
+  </item>
+  <item>
+    <title>ClickHouse/ClickHouse</title>
+    <link>https://github.com/ClickHouse/ClickHouse</link>
+    <guid>https://github.com/ClickHouse/ClickHouse</guid>
+    <description>ClickHouse® is a real-time analytics database management system（C++，⭐ 46,578）
+C++ 生态值得关注，热度稳定上涨</description>
+    <pubDate>Sat, 28 Mar 2026 01:08:28 GMT</pubDate>
+  </item>
+  <item>
+    <title>paperclipai/paperclip</title>
+    <link>https://github.com/paperclipai/paperclip</link>
+    <guid>https://github.com/paperclipai/paperclip</guid>
+    <description>Open-source orchestration for zero-human companies（TypeScript，⭐ 35,583）
+TypeScript 生态值得关注，热度稳定上涨</description>
+    <pubDate>Sat, 28 Mar 2026 01:09:10 GMT</pubDate>
+  </item>
+  <item>
+    <title>HKUDS/CLI-Anything</title>
+    <link>https://github.com/HKUDS/CLI-Anything</link>
+    <guid>https://github.com/HKUDS/CLI-Anything</guid>
+    <description>CLI-Anything: Making ALL Software Agent-Native（Python，⭐ 23,936）
+Python 生态值得关注，热度稳定上涨</description>
+    <pubDate>Sat, 28 Mar 2026 01:08:01 GMT</pubDate>
+  </item>
+  <item>
+    <title>googleworkspace/cli</title>
+    <link>https://github.com/googleworkspace/cli</link>
+    <guid>https://github.com/googleworkspace/cli</guid>
+    <description>Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.（Rust，⭐ 22,803）
+Rust 生态值得关注，热度稳定上涨</description>
+    <pubDate>Sat, 28 Mar 2026 01:07:56 GMT</pubDate>
+  </item>
+  <item>
+    <title>Homebrew/homebrew-cask</title>
+    <link>https://github.com/Homebrew/homebrew-cask</link>
+    <guid>https://github.com/Homebrew/homebrew-cask</guid>
+    <description>🍻 A CLI workflow for the administration of macOS applications distributed as binaries（Ruby，⭐ 21,916）
+Ruby 生态值得关注，热度稳定上涨</description>
+    <pubDate>Sat, 28 Mar 2026 01:07:42 GMT</pubDate>
+  </item>
+  <item>
+    <title>MaaAssistantArknights/MaaAssistantArknights</title>
+    <link>https://github.com/MaaAssistantArknights/MaaAssistantArknights</link>
+    <guid>https://github.com/MaaAssistantArknights/MaaAssistantArknights</guid>
+    <description>《明日方舟》小助手，全日常一键长草！| A one-click tool for the daily tasks of Arknights, supporting all clients.（C++，⭐ 20,056）
+C++ 生态值得关注，热度稳定上涨</description>
+    <pubDate>Sat, 28 Mar 2026 01:04:37 GMT</pubDate>
+  </item>
+  <item>
+    <title>NVIDIA/NemoClaw</title>
+    <link>https://github.com/NVIDIA/NemoClaw</link>
+    <guid>https://github.com/NVIDIA/NemoClaw</guid>
+    <description>Run OpenClaw more securely inside NVIDIA OpenShell with managed inference（JavaScript，⭐ 17,309）
+JavaScript 生态值得关注，热度稳定上涨</description>
+    <pubDate>Sat, 28 Mar 2026 01:08:51 GMT</pubDate>
+  </item>
+  <item>
+    <title>ImageMagick/ImageMagick</title>
+    <link>https://github.com/ImageMagick/ImageMagick</link>
+    <guid>https://github.com/ImageMagick/ImageMagick</guid>
+    <description>ImageMagick is a free, open-source software suite for creating, editing, converting, and displaying images. It supports 200+ formats and offers powerful command-line tools and APIs for automation, scripting, and integration across platforms.（C，⭐ 16,011）
+C 生态值得关注，热度稳定上涨</description>
+    <pubDate>Sat, 28 Mar 2026 01:06:26 GMT</pubDate>
+  </item>
+  <item>
+    <title>Homebrew/homebrew-core</title>
+    <link>https://github.com/Homebrew/homebrew-core</link>
+    <guid>https://github.com/Homebrew/homebrew-core</guid>
+    <description>🍻 Default formulae for the missing package manager for macOS (or Linux)（Ruby，⭐ 15,158）
+Ruby 生态值得关注，热度稳定上涨</description>
+    <pubDate>Sat, 28 Mar 2026 01:06:17 GMT</pubDate>
+  </item>
+  <item>
+    <title>openai/symphony</title>
+    <link>https://github.com/openai/symphony</link>
+    <guid>https://github.com/openai/symphony</guid>
+    <description>Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.（Elixir，⭐ 14,146）
+Elixir 生态值得关注，热度稳定上涨</description>
+    <pubDate>Sat, 28 Mar 2026 00:29:19 GMT</pubDate>
+  </item>
+  <item>
+    <title>tanweai/pua</title>
+    <link>https://github.com/tanweai/pua</link>
+    <guid>https://github.com/tanweai/pua</guid>
+    <description>你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。 一个agent使用的高能动性的skill。 Your AI has been placed on a PIP. 30 days to show improvement.（TypeScript，⭐ 12,832）
+TypeScript 生态值得关注，热度稳定上涨</description>
+    <pubDate>Sat, 28 Mar 2026 01:00:40 GMT</pubDate>
+  </item>
+</channel>
+</rss>

@@ -1,5 +1,5 @@
 .gstack/
 .sisyphus/
-data/
-outputs/
-docs/superpowers/plans/
+/data/
+/outputs/
+/docs/superpowers/plans/
