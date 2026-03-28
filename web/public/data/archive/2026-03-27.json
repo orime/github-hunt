@@ -1,0 +1,548 @@
+{
+  "generatedAt": "2026-03-27T15:37:57.543Z",
+  "date": "2026-03-27",
+  "timezone": "Asia/Shanghai",
+  "source": "github-search-api",
+  "total": 30,
+  "items": [
+    {
+      "id": "microsoft/vscode",
+      "name": "vscode",
+      "owner": "microsoft",
+      "fullName": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "description": "Visual Studio Code",
+      "summary": "Visual Studio Code（TypeScript，⭐ 183,144）",
+      "rationale": "TypeScript 生态值得关注，社区验证度高",
+      "stars": 183144,
+      "language": "TypeScript",
+      "updatedAt": "2026-03-27T15:37:11.000Z",
+      "tags": [
+        "typescript",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "karpathy/autoresearch",
+      "name": "autoresearch",
+      "owner": "karpathy",
+      "fullName": "karpathy/autoresearch",
+      "url": "https://github.com/karpathy/autoresearch",
+      "description": "AI agents running research on single-GPU nanochat training automatically",
+      "summary": "AI agents running research on single-GPU nanochat training automatically（Python，⭐ 58,174）",
+      "rationale": "Python 生态值得关注，社区验证度高",
+      "stars": 58174,
+      "language": "Python",
+      "updatedAt": "2026-03-27T15:35:59.000Z",
+      "tags": [
+        "python",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "appwrite/appwrite",
+      "name": "appwrite",
+      "owner": "appwrite",
+      "fullName": "appwrite/appwrite",
+      "url": "https://github.com/appwrite/appwrite",
+      "description": "Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more",
+      "summary": "Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more（TypeScript，⭐ 55,319）",
+      "rationale": "TypeScript 生态值得关注，社区验证度高",
+      "stars": 55319,
+      "language": "TypeScript",
+      "updatedAt": "2026-03-27T15:37:26.000Z",
+      "tags": [
+        "typescript",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "garrytan/gstack",
+      "name": "gstack",
+      "owner": "garrytan",
+      "fullName": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "summary": "Use Garry Tan's exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA（TypeScript，⭐ 51,775）",
+      "rationale": "TypeScript 生态值得关注，社区验证度高",
+      "stars": 51775,
+      "language": "TypeScript",
+      "updatedAt": "2026-03-27T15:37:49.000Z",
+      "tags": [
+        "typescript",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "twentyhq/twenty",
+      "name": "twenty",
+      "owner": "twentyhq",
+      "fullName": "twentyhq/twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "description": "Building a modern alternative to Salesforce, powered by the community.",
+      "summary": "Building a modern alternative to Salesforce, powered by the community.（TypeScript，⭐ 41,776）",
+      "rationale": "TypeScript 生态值得关注，热度稳定上涨",
+      "stars": 41776,
+      "language": "TypeScript",
+      "updatedAt": "2026-03-27T15:36:02.000Z",
+      "tags": [
+        "typescript",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "paperless-ngx/paperless-ngx",
+      "name": "paperless-ngx",
+      "owner": "paperless-ngx",
+      "fullName": "paperless-ngx/paperless-ngx",
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+      "summary": "A community-supported supercharged document management system: scan, index and archive all your documents（Python，⭐ 37,673）",
+      "rationale": "Python 生态值得关注，热度稳定上涨",
+      "stars": 37673,
+      "language": "Python",
+      "updatedAt": "2026-03-27T15:36:07.000Z",
+      "tags": [
+        "python",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "paperclipai/paperclip",
+      "name": "paperclip",
+      "owner": "paperclipai",
+      "fullName": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "Open-source orchestration for zero-human companies",
+      "summary": "Open-source orchestration for zero-human companies（TypeScript，⭐ 34,923）",
+      "rationale": "TypeScript 生态值得关注，热度稳定上涨",
+      "stars": 34923,
+      "language": "TypeScript",
+      "updatedAt": "2026-03-27T15:37:10.000Z",
+      "tags": [
+        "typescript",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "langfuse/langfuse",
+      "name": "langfuse",
+      "owner": "langfuse",
+      "fullName": "langfuse/langfuse",
+      "url": "https://github.com/langfuse/langfuse",
+      "description": "🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23",
+      "summary": "🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23（TypeScript，⭐ 23,886）",
+      "rationale": "TypeScript 生态值得关注，热度稳定上涨",
+      "stars": 23886,
+      "language": "TypeScript",
+      "updatedAt": "2026-03-27T15:35:16.000Z",
+      "tags": [
+        "typescript",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "HKUDS/CLI-Anything",
+      "name": "CLI-Anything",
+      "owner": "HKUDS",
+      "fullName": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "CLI-Anything: Making ALL Software Agent-Native",
+      "summary": "CLI-Anything: Making ALL Software Agent-Native（Python，⭐ 23,876）",
+      "rationale": "Python 生态值得关注，热度稳定上涨",
+      "stars": 23876,
+      "language": "Python",
+      "updatedAt": "2026-03-27T15:33:53.000Z",
+      "tags": [
+        "python",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "googleworkspace/cli",
+      "name": "cli",
+      "owner": "googleworkspace",
+      "fullName": "googleworkspace/cli",
+      "url": "https://github.com/googleworkspace/cli",
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "summary": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.（Rust，⭐ 22,757）",
+      "rationale": "Rust 生态值得关注，热度稳定上涨",
+      "stars": 22757,
+      "language": "Rust",
+      "updatedAt": "2026-03-27T15:34:13.000Z",
+      "tags": [
+        "rust",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "tursodatabase/turso",
+      "name": "turso",
+      "owner": "tursodatabase",
+      "fullName": "tursodatabase/turso",
+      "url": "https://github.com/tursodatabase/turso",
+      "description": "Turso is an in-process SQL database, compatible with SQLite.",
+      "summary": "Turso is an in-process SQL database, compatible with SQLite.（Rust，⭐ 17,972）",
+      "rationale": "Rust 生态值得关注，热度稳定上涨",
+      "stars": 17972,
+      "language": "Rust",
+      "updatedAt": "2026-03-27T15:35:43.000Z",
+      "tags": [
+        "rust",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "NVIDIA/NemoClaw",
+      "name": "NemoClaw",
+      "owner": "NVIDIA",
+      "fullName": "NVIDIA/NemoClaw",
+      "url": "https://github.com/NVIDIA/NemoClaw",
+      "description": "Run OpenClaw more securely inside NVIDIA OpenShell with managed inference",
+      "summary": "Run OpenClaw more securely inside NVIDIA OpenShell with managed inference（JavaScript，⭐ 17,225）",
+      "rationale": "JavaScript 生态值得关注，热度稳定上涨",
+      "stars": 17225,
+      "language": "JavaScript",
+      "updatedAt": "2026-03-27T15:31:14.000Z",
+      "tags": [
+        "javascript",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "spree/spree",
+      "name": "spree",
+      "owner": "spree",
+      "fullName": "spree/spree",
+      "url": "https://github.com/spree/spree",
+      "description": "Open-source commerce platform for fast growing businesses and enterprises. Supports complex commerce scenarios natively - from B2B wholesale to multi-vendor marketplace to global multi-region or multi-tenant ecommerce.",
+      "summary": "Open-source commerce platform for fast growing businesses and enterprises. Supports complex commerce scenarios natively - from B2B wholesale to multi-vendor marketplace to global multi-region or multi-tenant ecommerce.（Ruby，⭐ 15,295）",
+      "rationale": "Ruby 生态值得关注，热度稳定上涨",
+      "stars": 15295,
+      "language": "Ruby",
+      "updatedAt": "2026-03-27T15:36:28.000Z",
+      "tags": [
+        "ruby",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "rust-lang/cargo",
+      "name": "cargo",
+      "owner": "rust-lang",
+      "fullName": "rust-lang/cargo",
+      "url": "https://github.com/rust-lang/cargo",
+      "description": "The Rust package manager",
+      "summary": "The Rust package manager（Rust，⭐ 14,753）",
+      "rationale": "Rust 生态值得关注，热度稳定上涨",
+      "stars": 14753,
+      "language": "Rust",
+      "updatedAt": "2026-03-27T15:36:52.000Z",
+      "tags": [
+        "rust",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "openai/symphony",
+      "name": "symphony",
+      "owner": "openai",
+      "fullName": "openai/symphony",
+      "url": "https://github.com/openai/symphony",
+      "description": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
+      "summary": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.（Elixir，⭐ 14,123）",
+      "rationale": "Elixir 生态值得关注，热度稳定上涨",
+      "stars": 14123,
+      "language": "Elixir",
+      "updatedAt": "2026-03-27T15:24:56.000Z",
+      "tags": [
+        "elixir",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "tanweai/pua",
+      "name": "pua",
+      "owner": "tanweai",
+      "fullName": "tanweai/pua",
+      "url": "https://github.com/tanweai/pua",
+      "description": "你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。 一个agent使用的高能动性的skill。 Your AI has been placed on a PIP. 30 days to show improvement.",
+      "summary": "你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。 一个agent使用的高能动性的skill。 Your AI has been placed on a PIP. 30 days to show improvement.（TypeScript，⭐ 12,805）",
+      "rationale": "TypeScript 生态值得关注，热度稳定上涨",
+      "stars": 12805,
+      "language": "TypeScript",
+      "updatedAt": "2026-03-27T15:37:08.000Z",
+      "tags": [
+        "typescript",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "THU-MAIC/OpenMAIC",
+      "name": "OpenMAIC",
+      "owner": "THU-MAIC",
+      "fullName": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "summary": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click（TypeScript，⭐ 12,624）",
+      "rationale": "TypeScript 生态值得关注，热度稳定上涨",
+      "stars": 12624,
+      "language": "TypeScript",
+      "updatedAt": "2026-03-27T15:30:09.000Z",
+      "tags": [
+        "typescript",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "CleverRaven/Cataclysm-DDA",
+      "name": "Cataclysm-DDA",
+      "owner": "CleverRaven",
+      "fullName": "CleverRaven/Cataclysm-DDA",
+      "url": "https://github.com/CleverRaven/Cataclysm-DDA",
+      "description": "Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world.",
+      "summary": "Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world.（C++，⭐ 12,175）",
+      "rationale": "C++ 生态值得关注，热度稳定上涨",
+      "stars": 12175,
+      "language": "C++",
+      "updatedAt": "2026-03-27T15:35:19.000Z",
+      "tags": [
+        "c++",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "microsoft/RustTraining",
+      "name": "RustTraining",
+      "owner": "microsoft",
+      "fullName": "microsoft/RustTraining",
+      "url": "https://github.com/microsoft/RustTraining",
+      "description": "Beginner, advanced, expert level Rust training material",
+      "summary": "Beginner, advanced, expert level Rust training material（Rust，⭐ 10,530）",
+      "rationale": "Rust 生态值得关注，热度稳定上涨",
+      "stars": 10530,
+      "language": "Rust",
+      "updatedAt": "2026-03-27T15:36:06.000Z",
+      "tags": [
+        "rust",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "WebKit/WebKit",
+      "name": "WebKit",
+      "owner": "WebKit",
+      "fullName": "WebKit/WebKit",
+      "url": "https://github.com/WebKit/WebKit",
+      "description": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux.",
+      "summary": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux.（JavaScript，⭐ 9,709）",
+      "rationale": "JavaScript 生态值得关注，近 7 天仍在活跃更新",
+      "stars": 9709,
+      "language": "JavaScript",
+      "updatedAt": "2026-03-27T15:35:08.000Z",
+      "tags": [
+        "javascript",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "nikopueringer/CorridorKey",
+      "name": "CorridorKey",
+      "owner": "nikopueringer",
+      "fullName": "nikopueringer/CorridorKey",
+      "url": "https://github.com/nikopueringer/CorridorKey",
+      "description": "Perfect Green Screen Keys",
+      "summary": "Perfect Green Screen Keys（Python，⭐ 9,091）",
+      "rationale": "Python 生态值得关注，近 7 天仍在活跃更新",
+      "stars": 9091,
+      "language": "Python",
+      "updatedAt": "2026-03-27T15:29:44.000Z",
+      "tags": [
+        "python",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "aiming-lab/AutoResearchClaw",
+      "name": "AutoResearchClaw",
+      "owner": "aiming-lab",
+      "fullName": "aiming-lab/AutoResearchClaw",
+      "url": "https://github.com/aiming-lab/AutoResearchClaw",
+      "description": "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞",
+      "summary": "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞（Python，⭐ 9,083）",
+      "rationale": "Python 生态值得关注，近 7 天仍在活跃更新",
+      "stars": 9083,
+      "language": "Python",
+      "updatedAt": "2026-03-27T15:34:40.000Z",
+      "tags": [
+        "python",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "apache/datafusion",
+      "name": "datafusion",
+      "owner": "apache",
+      "fullName": "apache/datafusion",
+      "url": "https://github.com/apache/datafusion",
+      "description": "Apache DataFusion SQL Query Engine",
+      "summary": "Apache DataFusion SQL Query Engine（Rust，⭐ 8,542）",
+      "rationale": "Rust 生态值得关注，近 7 天仍在活跃更新",
+      "stars": 8542,
+      "language": "Rust",
+      "updatedAt": "2026-03-27T15:36:35.000Z",
+      "tags": [
+        "rust",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "phuryn/pm-skills",
+      "name": "pm-skills",
+      "owner": "phuryn",
+      "fullName": "phuryn/pm-skills",
+      "url": "https://github.com/phuryn/pm-skills",
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "summary": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.（未知技术栈，⭐ 8,265）",
+      "rationale": "多技术栈 生态值得关注，近 7 天仍在活跃更新",
+      "stars": 8265,
+      "language": "未知技术栈",
+      "updatedAt": "2026-03-27T15:35:15.000Z",
+      "tags": [
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "smartcontractkit/chainlink",
+      "name": "chainlink",
+      "owner": "smartcontractkit",
+      "fullName": "smartcontractkit/chainlink",
+      "url": "https://github.com/smartcontractkit/chainlink",
+      "description": "node of the decentralized oracle network, bridging on and off-chain computation",
+      "summary": "node of the decentralized oracle network, bridging on and off-chain computation（Go，⭐ 8,177）",
+      "rationale": "Go 生态值得关注，近 7 天仍在活跃更新",
+      "stars": 8177,
+      "language": "Go",
+      "updatedAt": "2026-03-27T15:35:10.000Z",
+      "tags": [
+        "go",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "jackwener/opencli",
+      "name": "opencli",
+      "owner": "jackwener",
+      "fullName": "jackwener/opencli",
+      "url": "https://github.com/jackwener/opencli",
+      "description": "Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to discover, learn, and execute tools seamlessly via a unified AGENT.md integration.",
+      "summary": "Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to discover, learn, and execute tools seamlessly via a unified AGENT.md integration.（TypeScript，⭐ 8,007）",
+      "rationale": "TypeScript 生态值得关注，近 7 天仍在活跃更新",
+      "stars": 8007,
+      "language": "TypeScript",
+      "updatedAt": "2026-03-27T15:35:08.000Z",
+      "tags": [
+        "typescript",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "MystenLabs/sui",
+      "name": "sui",
+      "owner": "MystenLabs",
+      "fullName": "MystenLabs/sui",
+      "url": "https://github.com/MystenLabs/sui",
+      "description": "Sui, a next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move programming language",
+      "summary": "Sui, a next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move programming language（Rust，⭐ 7,640）",
+      "rationale": "Rust 生态值得关注，近 7 天仍在活跃更新",
+      "stars": 7640,
+      "language": "Rust",
+      "updatedAt": "2026-03-27T15:36:57.000Z",
+      "tags": [
+        "rust",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "optiscaler/OptiScaler",
+      "name": "OptiScaler",
+      "owner": "optiscaler",
+      "fullName": "optiscaler/OptiScaler",
+      "url": "https://github.com/optiscaler/OptiScaler",
+      "description": "OptiScaler bridges upscaling/frame gen across GPUs. Supports DLSS2+/XeSS/FSR2+ inputs, replaces native upscalers, enables FSR3 FG on non-FG titles. Supports Nukem mod for DLSSG-to-FSR3 FG.",
+      "summary": "OptiScaler bridges upscaling/frame gen across GPUs. Supports DLSS2+/XeSS/FSR2+ inputs, replaces native upscalers, enables FSR3 FG on non-FG titles. Supports Nukem mod for DLSSG-to-FSR3 FG.（C++，⭐ 7,465）",
+      "rationale": "C++ 生态值得关注，近 7 天仍在活跃更新",
+      "stars": 7465,
+      "language": "C++",
+      "updatedAt": "2026-03-27T15:36:26.000Z",
+      "tags": [
+        "c++",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "calesthio/Crucix",
+      "name": "Crucix",
+      "owner": "calesthio",
+      "fullName": "calesthio/Crucix",
+      "url": "https://github.com/calesthio/Crucix",
+      "description": "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.",
+      "summary": "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.（JavaScript，⭐ 7,111）",
+      "rationale": "JavaScript 生态值得关注，近 7 天仍在活跃更新",
+      "stars": 7111,
+      "language": "JavaScript",
+      "updatedAt": "2026-03-27T15:28:36.000Z",
+      "tags": [
+        "javascript",
+        "active",
+        "trending"
+      ]
+    },
+    {
+      "id": "MiniMax-AI/skills",
+      "name": "skills",
+      "owner": "MiniMax-AI",
+      "fullName": "MiniMax-AI/skills",
+      "url": "https://github.com/MiniMax-AI/skills",
+      "description": "",
+      "summary": "这是一个以 C# 为主的开源项目，当前 Star 约 6,714，近期可重点关注其活跃更新。",
+      "rationale": "C# 生态值得关注，近 7 天仍在活跃更新",
+      "stars": 6714,
+      "language": "C#",
+      "updatedAt": "2026-03-27T15:36:47.000Z",
+      "tags": [
+        "c#",
+        "active",
+        "trending"
+      ]
+    }
+  ]
+}
