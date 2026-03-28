@@ -1,0 +1,12 @@
+{
+  "name": "github-hunt",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "daily:run": "node scripts/generate-dataset.mjs",
+    "refresh:data": "node scripts/generate-dataset.mjs",
+    "site:build": "pnpm --dir web build && node scripts/prepare-web-dist.mjs",
+    "test": "node --test"
+  }
+}
