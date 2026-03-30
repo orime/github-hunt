@@ -174,7 +174,7 @@ function buildInitialState(): AppDataState {
   }
 }
 
-const AUTH_PASSWORD_HASH = '939b0d0946d943a8d8502c8e03677ac80085e1302a71af275dc704182ad3bf12'
+const AUTH_PASSWORD_HASH = import.meta.env.VITE_AUTH_PASSWORD_HASH as string | undefined
 const AUTH_STORAGE_KEY = 'gh_auth_ok'
 
 function App() {
@@ -197,6 +197,12 @@ function App() {
 
   async function handleAuthSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault()
+
+    if (!AUTH_PASSWORD_HASH) {
+      setAuthError('密码门禁未配置，请设置 VITE_AUTH_PASSWORD_HASH 环境变量。')
+      return
+    }
+
     const formData = new FormData(event.currentTarget)
     const password = String(formData.get('password') ?? '')
     const encoded = new TextEncoder().encode(password)
