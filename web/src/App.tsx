@@ -441,22 +441,24 @@ function App() {
         </div>
       </div>
 
-      <header className="workbench__header">
-        <div className="workbench__title-block">
-          <h1>GitHub Hunt 公共工作台</h1>
-          <p className="workbench__subtitle">
-            统一浏览日更归档，按仓库切换公众号/视频/日报/小程序/配图输出，直接在页面内预览。
-          </p>
-        </div>
-        <div className="workbench__stats" aria-label="工作台元信息">
-          <span>日期：{state.bundle?.date ?? '-'}</span>
-          <span>仓库：{formatRepoCount(state.bundle?.total ?? repos.length)}</span>
-          <span>源：{state.bundle?.source ?? '-'}</span>
-        </div>
-      </header>
+      {authenticated && (
+        <>
+          <header className="workbench__header">
+            <div className="workbench__title-block">
+              <h1>GitHub Hunt 公共工作台</h1>
+              <p className="workbench__subtitle">
+                统一浏览日更归档，按仓库切换公众号/视频/日报/小程序/配图输出，直接在页面内预览。
+              </p>
+            </div>
+            <div className="workbench__stats" aria-label="工作台元信息">
+              <span>日期：{state.bundle?.date ?? '-'}</span>
+              <span>仓库：{formatRepoCount(state.bundle?.total ?? repos.length)}</span>
+              <span>源：{state.bundle?.source ?? '-'}</span>
+            </div>
+          </header>
 
-      {state.warning && <section className="state-box">{state.warning}</section>}
-      {state.fatalError && <section className="state-box state-box--error">{state.fatalError}</section>}
+          {state.warning && <section className="state-box">{state.warning}</section>}
+          {state.fatalError && <section className="state-box state-box--error">{state.fatalError}</section>}
 
       {state.stage === 'error' && (
         <section className="state-box state-box--error">初始化失败，无法进入工作台。</section>
@@ -503,25 +505,33 @@ function App() {
                 {repos.map((repo) => {
                   const active = repo.id === selectedRepo?.id
                   return (
-                    <button
+                    <div
                       key={repo.id}
-                      type="button"
                       className={active ? 'repo-row repo-row--active' : 'repo-row'}
-                      onClick={() => {
-                        setState((prev) => ({ ...prev, selectedRepoId: repo.id }))
-                      }}
+                      role="option"
                       aria-selected={active}
                     >
-                      <div className="repo-row__top">
-                        <strong>{repo.fullName}</strong>
-                        <span>★ {formatStarCount(repo.stars)}</span>
-                      </div>
-                      <p>{repo.summary}</p>
-                      <div className="repo-row__meta">
-                        <span>{repo.language}</span>
-                        <time dateTime={repo.updatedAt}>{formatDateTime(repo.updatedAt)}</time>
-                      </div>
-                    </button>
+                      <button
+                        type="button"
+                        className="repo-row__select"
+                        onClick={() => {
+                          setState((prev) => ({ ...prev, selectedRepoId: repo.id }))
+                        }}
+                      >
+                        <div className="repo-row__top">
+                          <strong>{repo.fullName}</strong>
+                          <span>★ {formatStarCount(repo.stars)}</span>
+                        </div>
+                        <p className="repo-row__desc">{repo.description}</p>
+                        <div className="repo-row__meta">
+                          <span>{repo.language}</span>
+                          <time dateTime={repo.updatedAt}>{formatDateTime(repo.updatedAt)}</time>
+                        </div>
+                      </button>
+                      <a className="repo-row__link" href={repo.url} target="_blank" rel="noreferrer" title="打开 GitHub 仓库">
+                        ↗
+                      </a>
+                    </div>
                   )
                 })}
               </div>
@@ -625,6 +635,8 @@ function App() {
             )}
           </section>
         </section>
+      )}
+        </>
       )}
     </main>
   )
