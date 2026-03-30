@@ -174,7 +174,13 @@ function buildInitialState(): AppDataState {
   }
 }
 
+const AUTH_PASSWORD_HASH = '939b0d0946d943a8d8502c8e03677ac80085e1302a71af275dc704182ad3bf12'
+const AUTH_STORAGE_KEY = 'gh_auth_ok'
+
 function App() {
+  const [authenticated, setAuthenticated] = useState(false)
+  const [authError, setAuthError] = useState<string | null>(null)
+
   const [state, setState] = useState<AppDataState>(buildInitialState)
   const [outputState, setOutputState] = useState<OutputPreviewState>({
     stage: 'loading',
@@ -182,6 +188,30 @@ function App() {
     sourcePath: '',
     error: null,
   })
+
+  useEffect(() => {
+    if (sessionStorage.getItem(AUTH_STORAGE_KEY) === 'ok') {
+      setAuthenticated(true)
+    }
+  }, [])
+
+  async function handleAuthSubmit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault()
+    const formData = new FormData(event.currentTarget)
+    const password = String(formData.get('password') ?? '')
+    const encoded = new TextEncoder().encode(password)
+    const digest = await crypto.subtle.digest('SHA-256', encoded)
+    const hash = Array.from(new Uint8Array(digest))
+      .map((b) => b.toString(16).padStart(2, '0'))
+      .join('')
+    if (hash === AUTH_PASSWORD_HASH) {
+      sessionStorage.setItem(AUTH_STORAGE_KEY, 'ok')
+      setAuthError(null)
+      setAuthenticated(true)
+    } else {
+      setAuthError('密码错误，请重试。')
+    }
+  }
 
   useEffect(() => {
     let cancelled = false
@@ -393,8 +423,20 @@ function App() {
 
   return (
     <main className="workbench">
+      <div className={`auth-gate ${authenticated ? '' : 'auth-gate--active'}`}>
+        <div className="auth-gate__panel">
+          <h2>访问验证</h2>
+          <p>请输入访问密码以进入 GitHub Hunt 公共工作台。</p>
+          <form className="auth-gate__form" onSubmit={(e) => { void handleAuthSubmit(e) }}>
+            <input name="password" type="password" placeholder="输入密码" autoComplete="current-password" />
+            <button type="submit">进入工作台</button>
+          </form>
+          {authError && <p className="auth-gate__error">{authError}</p>}
+        </div>
+      </div>
+
       <header className="workbench__header">
-        <div>
+        <div className="workbench__title-block">
           <h1>GitHub Hunt 公共工作台</h1>
           <p className="workbench__subtitle">
             统一浏览日更归档，按仓库切换公众号/视频/日报/小程序/配图输出，直接在页面内预览。
@@ -448,7 +490,7 @@ function App() {
               <h2>仓库列表</h2>
               <span>{repos.length} 项</span>
             </div>
-            {state.stage === 'loading' && <div className="state-box">正在加载选中日期数据…</div>}
+            {state.stage === 'loading' && <div className="state-box state-box--loading">正在加载选中日期数据…</div>}
             {state.stage === 'ready' && repos.length === 0 && <div className="state-box">该日期暂无仓库数据。</div>}
             {state.stage === 'ready' && repos.length > 0 && (
               <div className="repo-list" role="listbox" aria-label="选择仓库">
@@ -509,7 +551,7 @@ function App() {
 
             <p className="preview-path">来源：{outputState.sourcePath || '待加载'}</p>
 
-            {outputState.stage === 'loading' && <div className="state-box">正在读取输出文件…</div>}
+            {outputState.stage === 'loading' && <div className="state-box state-box--loading">正在读取输出文件…</div>}
             {outputState.stage === 'error' && outputState.error && (
               <div className="state-box state-box--error">{outputState.error}</div>
             )}
