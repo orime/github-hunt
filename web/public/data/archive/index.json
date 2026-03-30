@@ -1,0 +1,147 @@
+{
+  "generatedAt": "2026-03-28T03:21:51.082Z",
+  "latest": "2026-03-28",
+  "total": 2,
+  "entries": [
+    {
+      "date": "2026-03-28",
+      "generatedAt": "2026-03-28T03:21:51.082Z",
+      "total": 30,
+      "source": "github-search-api",
+      "outputs": {
+        "wechat": {
+          "label": "公众号草稿",
+          "type": "markdown",
+          "path": "/outputs/wechat/daily-2026-03-28.md"
+        },
+        "video": {
+          "label": "视频脚本",
+          "type": "markdown",
+          "path": "/outputs/video/daily-2026-03-28.md"
+        },
+        "report": {
+          "label": "每日报告",
+          "type": "markdown",
+          "path": "/outputs/reports/daily-2026-03-28.md"
+        },
+        "miniapp": {
+          "label": "小程序卡片",
+          "type": "json",
+          "path": "/outputs/miniapp/daily-2026-03-28.json"
+        },
+        "images": {
+          "label": "配图素材",
+          "type": "json",
+          "path": "/outputs/images/daily-2026-03-28.json"
+        }
+      },
+      "topRepos": [
+        {
+          "id": "openclaw/openclaw",
+          "fullName": "openclaw/openclaw",
+          "language": "TypeScript",
+          "stars": 338701,
+          "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞（TypeScript，⭐ 338,701）"
+        },
+        {
+          "id": "torvalds/linux",
+          "fullName": "torvalds/linux",
+          "language": "C",
+          "stars": 225363,
+          "summary": "Linux kernel source tree（C，⭐ 225,363）"
+        },
+        {
+          "id": "microsoft/vscode",
+          "fullName": "microsoft/vscode",
+          "language": "TypeScript",
+          "stars": 183126,
+          "summary": "Visual Studio Code（TypeScript，⭐ 183,126）"
+        },
+        {
+          "id": "anomalyco/opencode",
+          "fullName": "anomalyco/opencode",
+          "language": "TypeScript",
+          "stars": 131573,
+          "summary": "The open source coding agent.（TypeScript，⭐ 131,573）"
+        },
+        {
+          "id": "openai/codex",
+          "fullName": "openai/codex",
+          "language": "Rust",
+          "stars": 68028,
+          "summary": "Lightweight coding agent that runs in your terminal（Rust，⭐ 68,028）"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-27",
+      "generatedAt": "2026-03-27T15:37:57.543Z",
+      "total": 30,
+      "source": "github-search-api",
+      "outputs": {
+        "wechat": {
+          "label": "公众号草稿",
+          "type": "markdown",
+          "path": "/outputs/wechat/daily-2026-03-27.md"
+        },
+        "video": {
+          "label": "视频脚本",
+          "type": "markdown",
+          "path": "/outputs/video/daily-2026-03-27.md"
+        },
+        "report": {
+          "label": "每日报告",
+          "type": "markdown",
+          "path": "/outputs/reports/daily-2026-03-27.md"
+        },
+        "miniapp": {
+          "label": "小程序卡片",
+          "type": "json",
+          "path": "/outputs/miniapp/daily-2026-03-27.json"
+        },
+        "images": {
+          "label": "配图素材",
+          "type": "json",
+          "path": "/outputs/images/daily-2026-03-27.json"
+        }
+      },
+      "topRepos": [
+        {
+          "id": "microsoft/vscode",
+          "fullName": "microsoft/vscode",
+          "language": "TypeScript",
+          "stars": 183144,
+          "summary": "Visual Studio Code（TypeScript，⭐ 183,144）"
+        },
+        {
+          "id": "karpathy/autoresearch",
+          "fullName": "karpathy/autoresearch",
+          "language": "Python",
+          "stars": 58174,
+          "summary": "AI agents running research on single-GPU nanochat training automatically（Python，⭐ 58,174）"
+        },
+        {
+          "id": "appwrite/appwrite",
+          "fullName": "appwrite/appwrite",
+          "language": "TypeScript",
+          "stars": 55319,
+          "summary": "Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more（TypeScript，⭐ 55,319）"
+        },
+        {
+          "id": "garrytan/gstack",
+          "fullName": "garrytan/gstack",
+          "language": "TypeScript",
+          "stars": 51775,
+          "summary": "Use Garry Tan's exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA（TypeScript，⭐ 51,775）"
+        },
+        {
+          "id": "twentyhq/twenty",
+          "fullName": "twentyhq/twenty",
+          "language": "TypeScript",
+          "stars": 41776,
+          "summary": "Building a modern alternative to Salesforce, powered by the community.（TypeScript，⭐ 41,776）"
+        }
+      ]
+    }
+  ]
+}

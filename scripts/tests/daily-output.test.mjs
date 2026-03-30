@@ -1,6 +1,15 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { buildDailyBundle, buildMiniAppFeed, buildOperatorReportMarkdown, buildRssXml, buildVideoScriptMarkdown, buildWechatArticleMarkdown } from "../lib/daily-output.mjs";
+import {
+  buildArchiveIndex,
+  buildDailyBundle,
+  buildMiniAppFeed,
+  buildOperatorReportMarkdown,
+  buildPublicArtifacts,
+  buildRssXml,
+  buildVideoScriptMarkdown,
+  buildWechatArticleMarkdown
+} from "../lib/daily-output.mjs";
 
 const sampleRepo = {
   name: "awesome-repo",
@@ -10,6 +19,8 @@ const sampleRepo = {
   stars: 9527,
   language: "TypeScript",
   updatedAt: "2026-03-27T00:00:00.000Z",
+  ownerAvatarUrl: "https://avatars.githubusercontent.com/u/1?v=4",
+  socialPreviewImageUrl: "https://opengraph.githubassets.com/1/demo",
   summary: "一个很实用的自动化工具（TypeScript，⭐ 9,527）",
   rationale: "TypeScript 生态值得关注，热度稳定上涨"
 };
@@ -27,7 +38,66 @@ test("buildDailyBundle 生成网站与内容工厂共用 schema", () => {
   assert.equal(bundle.items[0].id, "alice/awesome-repo");
   assert.equal(bundle.items[0].fullName, "alice/awesome-repo");
   assert.equal(bundle.items[0].summary, sampleRepo.summary);
+  assert.equal(bundle.items[0].ownerAvatarUrl, sampleRepo.ownerAvatarUrl);
+  assert.equal(bundle.items[0].socialPreviewImageUrl, sampleRepo.socialPreviewImageUrl);
   assert.match(bundle.items[0].tags.join(","), /typescript/i);
+});
+
+test("buildPublicArtifacts 生成前端可直接消费的公开产物路径", () => {
+  const outputs = buildPublicArtifacts("2026-03-28");
+
+  assert.equal(outputs.wechat.type, "markdown");
+  assert.equal(outputs.wechat.path, "/outputs/wechat/daily-2026-03-28.md");
+  assert.equal(outputs.video.path, "/outputs/video/daily-2026-03-28.md");
+  assert.equal(outputs.report.path, "/outputs/reports/daily-2026-03-28.md");
+  assert.equal(outputs.miniapp.type, "json");
+  assert.equal(outputs.images.path, "/outputs/images/daily-2026-03-28.json");
+});
+
+test("buildArchiveIndex 生成按日期倒序的历史索引", () => {
+  const older = {
+    generatedAt: "2026-03-27T01:00:00.000Z",
+    date: "2026-03-27",
+    source: "github-search-api",
+    total: 1,
+    outputs: buildPublicArtifacts("2026-03-27"),
+    items: [
+      {
+        id: "alice/awesome-repo",
+        fullName: "alice/awesome-repo",
+        language: "TypeScript",
+        stars: 9527,
+        summary: sampleRepo.summary
+      }
+    ]
+  };
+  const newer = {
+    generatedAt: "2026-03-28T01:00:00.000Z",
+    date: "2026-03-28",
+    source: "github-search-api",
+    total: 1,
+    outputs: buildPublicArtifacts("2026-03-28"),
+    items: [
+      {
+        id: "bob/ship-it",
+        fullName: "bob/ship-it",
+        language: "Go",
+        stars: 1200,
+        summary: "Go 服务工具"
+      }
+    ]
+  };
+
+  const archiveIndex = buildArchiveIndex([older, newer], "2026-03-28T09:00:00.000Z");
+
+  assert.equal(archiveIndex.latest, "2026-03-28");
+  assert.equal(archiveIndex.total, 2);
+  assert.deepEqual(
+    archiveIndex.entries.map((entry) => entry.date),
+    ["2026-03-28", "2026-03-27"]
+  );
+  assert.equal(archiveIndex.entries[0].outputs.wechat.path, "/outputs/wechat/daily-2026-03-28.md");
+  assert.equal(archiveIndex.entries[0].topRepos[0].fullName, "bob/ship-it");
 });
 
 test("buildWechatArticleMarkdown 生成可直接二次编辑的公众号草稿", () => {
@@ -85,6 +155,8 @@ test("buildMiniAppFeed 生成小程序卡片数据", () => {
         language: sampleRepo.language,
         stars: sampleRepo.stars,
         updatedAt: sampleRepo.updatedAt,
+        ownerAvatarUrl: sampleRepo.ownerAvatarUrl,
+        socialPreviewImageUrl: sampleRepo.socialPreviewImageUrl,
         tags: ["typescript", "trending"]
       }
     ]
@@ -93,6 +165,7 @@ test("buildMiniAppFeed 生成小程序卡片数据", () => {
   assert.equal(feed.date, "2026-03-27");
   assert.equal(feed.cards.length, 1);
   assert.equal(feed.cards[0].title, "alice/awesome-repo");
+  assert.equal(feed.cards[0].imageUrl, sampleRepo.socialPreviewImageUrl);
   assert.match(feed.cards[0].subtitle, /TypeScript/);
 });
 

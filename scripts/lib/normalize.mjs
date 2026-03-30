@@ -2,6 +2,11 @@ function normalizeText(input) {
   return (input ?? "").replace(/\s+/g, " ").trim();
 }
 
+function normalizeUrl(input) {
+  const value = normalizeText(input);
+  return /^https?:\/\//.test(value) ? value : "";
+}
+
 export function toISODateTime(value) {
   if (!value) return new Date(0).toISOString();
   const d = new Date(value);
@@ -42,7 +47,9 @@ export function mapRepo(raw) {
     description: normalizeText(raw?.description),
     stars: Number(raw?.stargazers_count) || 0,
     language: normalizeText(raw?.language) || "",
-    updatedAt: toISODateTime(raw?.updated_at)
+    updatedAt: toISODateTime(raw?.updated_at),
+    ownerAvatarUrl: normalizeUrl(raw?.owner?.avatar_url ?? raw?.owner_avatar_url),
+    socialPreviewImageUrl: normalizeUrl(raw?.open_graph_image_url)
   };
 
   mapped.summary = buildDeterministicSummary(mapped);

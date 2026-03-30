@@ -4,421 +4,451 @@
     {
       "id": "openclaw/openclaw",
       "title": "openclaw/openclaw",
-      "subtitle": "TypeScript · ⭐ 338,624",
-      "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞（TypeScript，⭐ 338,624）",
+      "subtitle": "TypeScript · ⭐ 338,701",
+      "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞（TypeScript，⭐ 338,701）",
       "reason": "TypeScript 生态值得关注，社区验证度高",
       "url": "https://github.com/openclaw/openclaw",
+      "imageUrl": "https://avatars.githubusercontent.com/u/252820863?v=4",
       "tags": [
         "typescript",
         "active",
         "trending"
       ],
-      "updatedAt": "2026-03-28T01:09:09.000Z"
+      "updatedAt": "2026-03-28T03:20:51.000Z"
     },
     {
-      "id": "microsoft/vscode",
-      "title": "microsoft/vscode",
-      "subtitle": "TypeScript · ⭐ 183,129",
-      "summary": "Visual Studio Code（TypeScript，⭐ 183,129）",
-      "reason": "TypeScript 生态值得关注，社区验证度高",
-      "url": "https://github.com/microsoft/vscode",
-      "tags": [
-        "typescript",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T01:07:56.000Z"
-    },
-    {
-      "id": "vercel/next.js",
-      "title": "vercel/next.js",
-      "subtitle": "JavaScript · ⭐ 138,495",
-      "summary": "The React Framework（JavaScript，⭐ 138,495）",
-      "reason": "JavaScript 生态值得关注，社区验证度高",
-      "url": "https://github.com/vercel/next.js",
-      "tags": [
-        "javascript",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T01:07:37.000Z"
-    },
-    {
-      "id": "golang/go",
-      "title": "golang/go",
-      "subtitle": "Go · ⭐ 133,176",
-      "summary": "The Go programming language（Go，⭐ 133,176）",
-      "reason": "Go 生态值得关注，社区验证度高",
-      "url": "https://github.com/golang/go",
-      "tags": [
-        "go",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T01:08:00.000Z"
-    },
-    {
-      "id": "Comfy-Org/ComfyUI",
-      "title": "Comfy-Org/ComfyUI",
-      "subtitle": "Python · ⭐ 107,131",
-      "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.（Python，⭐ 107,131）",
-      "reason": "Python 生态值得关注，社区验证度高",
-      "url": "https://github.com/Comfy-Org/ComfyUI",
-      "tags": [
-        "python",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T01:06:44.000Z"
-    },
-    {
-      "id": "zed-industries/zed",
-      "title": "zed-industries/zed",
-      "subtitle": "Rust · ⭐ 78,004",
-      "summary": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.（Rust，⭐ 78,004）",
-      "reason": "Rust 生态值得关注，社区验证度高",
-      "url": "https://github.com/zed-industries/zed",
-      "tags": [
-        "rust",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T01:07:02.000Z"
-    },
-    {
-      "id": "openai/codex",
-      "title": "openai/codex",
-      "subtitle": "Rust · ⭐ 68,013",
-      "summary": "Lightweight coding agent that runs in your terminal（Rust，⭐ 68,013）",
-      "reason": "Rust 生态值得关注，社区验证度高",
-      "url": "https://github.com/openai/codex",
-      "tags": [
-        "rust",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T01:05:59.000Z"
-    },
-    {
-      "id": "karpathy/autoresearch",
-      "title": "karpathy/autoresearch",
-      "subtitle": "Python · ⭐ 58,527",
-      "summary": "AI agents running research on single-GPU nanochat training automatically（Python，⭐ 58,527）",
-      "reason": "Python 生态值得关注，社区验证度高",
-      "url": "https://github.com/karpathy/autoresearch",
-      "tags": [
-        "python",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T01:06:27.000Z"
-    },
-    {
-      "id": "garrytan/gstack",
-      "title": "garrytan/gstack",
-      "subtitle": "TypeScript · ⭐ 52,470",
-      "summary": "Use Garry Tan's exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA（TypeScript，⭐ 52,470）",
-      "reason": "TypeScript 生态值得关注，社区验证度高",
-      "url": "https://github.com/garrytan/gstack",
-      "tags": [
-        "typescript",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T01:08:18.000Z"
-    },
-    {
-      "id": "ClickHouse/ClickHouse",
-      "title": "ClickHouse/ClickHouse",
-      "subtitle": "C++ · ⭐ 46,578",
-      "summary": "ClickHouse® is a real-time analytics database management system（C++，⭐ 46,578）",
-      "reason": "C++ 生态值得关注，热度稳定上涨",
-      "url": "https://github.com/ClickHouse/ClickHouse",
-      "tags": [
-        "c++",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T01:08:28.000Z"
-    },
-    {
-      "id": "paperclipai/paperclip",
-      "title": "paperclipai/paperclip",
-      "subtitle": "TypeScript · ⭐ 35,583",
-      "summary": "Open-source orchestration for zero-human companies（TypeScript，⭐ 35,583）",
-      "reason": "TypeScript 生态值得关注，热度稳定上涨",
-      "url": "https://github.com/paperclipai/paperclip",
-      "tags": [
-        "typescript",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T01:09:10.000Z"
-    },
-    {
-      "id": "HKUDS/CLI-Anything",
-      "title": "HKUDS/CLI-Anything",
-      "subtitle": "Python · ⭐ 23,936",
-      "summary": "CLI-Anything: Making ALL Software Agent-Native（Python，⭐ 23,936）",
-      "reason": "Python 生态值得关注，热度稳定上涨",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "tags": [
-        "python",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T01:08:01.000Z"
-    },
-    {
-      "id": "googleworkspace/cli",
-      "title": "googleworkspace/cli",
-      "subtitle": "Rust · ⭐ 22,803",
-      "summary": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.（Rust，⭐ 22,803）",
-      "reason": "Rust 生态值得关注，热度稳定上涨",
-      "url": "https://github.com/googleworkspace/cli",
-      "tags": [
-        "rust",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T01:07:56.000Z"
-    },
-    {
-      "id": "Homebrew/homebrew-cask",
-      "title": "Homebrew/homebrew-cask",
-      "subtitle": "Ruby · ⭐ 21,916",
-      "summary": "🍻 A CLI workflow for the administration of macOS applications distributed as binaries（Ruby，⭐ 21,916）",
-      "reason": "Ruby 生态值得关注，热度稳定上涨",
-      "url": "https://github.com/Homebrew/homebrew-cask",
-      "tags": [
-        "ruby",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T01:07:42.000Z"
-    },
-    {
-      "id": "MaaAssistantArknights/MaaAssistantArknights",
-      "title": "MaaAssistantArknights/MaaAssistantArknights",
-      "subtitle": "C++ · ⭐ 20,056",
-      "summary": "《明日方舟》小助手，全日常一键长草！| A one-click tool for the daily tasks of Arknights, supporting all clients.（C++，⭐ 20,056）",
-      "reason": "C++ 生态值得关注，热度稳定上涨",
-      "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights",
-      "tags": [
-        "c++",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T01:04:37.000Z"
-    },
-    {
-      "id": "NVIDIA/NemoClaw",
-      "title": "NVIDIA/NemoClaw",
-      "subtitle": "JavaScript · ⭐ 17,309",
-      "summary": "Run OpenClaw more securely inside NVIDIA OpenShell with managed inference（JavaScript，⭐ 17,309）",
-      "reason": "JavaScript 生态值得关注，热度稳定上涨",
-      "url": "https://github.com/NVIDIA/NemoClaw",
-      "tags": [
-        "javascript",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T01:08:51.000Z"
-    },
-    {
-      "id": "ImageMagick/ImageMagick",
-      "title": "ImageMagick/ImageMagick",
-      "subtitle": "C · ⭐ 16,011",
-      "summary": "ImageMagick is a free, open-source software suite for creating, editing, converting, and displaying images. It supports 200+ formats and offers powerful command-line tools and APIs for automation, scripting, and integration across platforms.（C，⭐ 16,011）",
-      "reason": "C 生态值得关注，热度稳定上涨",
-      "url": "https://github.com/ImageMagick/ImageMagick",
+      "id": "torvalds/linux",
+      "title": "torvalds/linux",
+      "subtitle": "C · ⭐ 225,363",
+      "summary": "Linux kernel source tree（C，⭐ 225,363）",
+      "reason": "C 生态值得关注，社区验证度高",
+      "url": "https://github.com/torvalds/linux",
+      "imageUrl": "https://avatars.githubusercontent.com/u/1024025?v=4",
       "tags": [
         "c",
         "active",
         "trending"
       ],
-      "updatedAt": "2026-03-28T01:06:26.000Z"
+      "updatedAt": "2026-03-28T03:21:27.000Z"
     },
     {
-      "id": "Homebrew/homebrew-core",
-      "title": "Homebrew/homebrew-core",
-      "subtitle": "Ruby · ⭐ 15,158",
-      "summary": "🍻 Default formulae for the missing package manager for macOS (or Linux)（Ruby，⭐ 15,158）",
-      "reason": "Ruby 生态值得关注，热度稳定上涨",
-      "url": "https://github.com/Homebrew/homebrew-core",
-      "tags": [
-        "ruby",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T01:06:17.000Z"
-    },
-    {
-      "id": "openai/symphony",
-      "title": "openai/symphony",
-      "subtitle": "Elixir · ⭐ 14,146",
-      "summary": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.（Elixir，⭐ 14,146）",
-      "reason": "Elixir 生态值得关注，热度稳定上涨",
-      "url": "https://github.com/openai/symphony",
-      "tags": [
-        "elixir",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T00:29:19.000Z"
-    },
-    {
-      "id": "tanweai/pua",
-      "title": "tanweai/pua",
-      "subtitle": "TypeScript · ⭐ 12,832",
-      "summary": "你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。 一个agent使用的高能动性的skill。 Your AI has been placed on a PIP. 30 days to show improvement.（TypeScript，⭐ 12,832）",
-      "reason": "TypeScript 生态值得关注，热度稳定上涨",
-      "url": "https://github.com/tanweai/pua",
+      "id": "microsoft/vscode",
+      "title": "microsoft/vscode",
+      "subtitle": "TypeScript · ⭐ 183,126",
+      "summary": "Visual Studio Code（TypeScript，⭐ 183,126）",
+      "reason": "TypeScript 生态值得关注，社区验证度高",
+      "url": "https://github.com/microsoft/vscode",
+      "imageUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "tags": [
         "typescript",
         "active",
         "trending"
       ],
-      "updatedAt": "2026-03-28T01:00:40.000Z"
+      "updatedAt": "2026-03-28T03:21:11.000Z"
     },
     {
-      "id": "THU-MAIC/OpenMAIC",
-      "title": "THU-MAIC/OpenMAIC",
-      "subtitle": "TypeScript · ⭐ 12,645",
-      "summary": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click（TypeScript，⭐ 12,645）",
-      "reason": "TypeScript 生态值得关注，热度稳定上涨",
-      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "id": "anomalyco/opencode",
+      "title": "anomalyco/opencode",
+      "subtitle": "TypeScript · ⭐ 131,573",
+      "summary": "The open source coding agent.（TypeScript，⭐ 131,573）",
+      "reason": "TypeScript 生态值得关注，社区验证度高",
+      "url": "https://github.com/anomalyco/opencode",
+      "imageUrl": "https://avatars.githubusercontent.com/u/66570915?v=4",
       "tags": [
         "typescript",
         "active",
         "trending"
       ],
-      "updatedAt": "2026-03-28T01:01:23.000Z"
+      "updatedAt": "2026-03-28T03:19:35.000Z"
     },
     {
-      "id": "zealdocs/zeal",
-      "title": "zealdocs/zeal",
-      "subtitle": "C++ · ⭐ 12,565",
-      "summary": "Offline documentation browser inspired by Dash（C++，⭐ 12,565）",
-      "reason": "C++ 生态值得关注，热度稳定上涨",
-      "url": "https://github.com/zealdocs/zeal",
-      "tags": [
-        "c++",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T01:07:00.000Z"
-    },
-    {
-      "id": "microsoft/RustTraining",
-      "title": "microsoft/RustTraining",
-      "subtitle": "Rust · ⭐ 10,726",
-      "summary": "Beginner, advanced, expert level Rust training material（Rust，⭐ 10,726）",
-      "reason": "Rust 生态值得关注，热度稳定上涨",
-      "url": "https://github.com/microsoft/RustTraining",
+      "id": "openai/codex",
+      "title": "openai/codex",
+      "subtitle": "Rust · ⭐ 68,028",
+      "summary": "Lightweight coding agent that runs in your terminal（Rust，⭐ 68,028）",
+      "reason": "Rust 生态值得关注，社区验证度高",
+      "url": "https://github.com/openai/codex",
+      "imageUrl": "https://avatars.githubusercontent.com/u/14957082?v=4",
       "tags": [
         "rust",
         "active",
         "trending"
       ],
-      "updatedAt": "2026-03-28T01:05:41.000Z"
+      "updatedAt": "2026-03-28T03:18:13.000Z"
     },
     {
-      "id": "microsoft/winget-pkgs",
-      "title": "microsoft/winget-pkgs",
-      "subtitle": "PowerShell · ⭐ 10,403",
-      "summary": "The Microsoft community Windows Package Manager manifest repository（PowerShell，⭐ 10,403）",
-      "reason": "PowerShell 生态值得关注，热度稳定上涨",
-      "url": "https://github.com/microsoft/winget-pkgs",
+      "id": "LadybirdBrowser/ladybird",
+      "title": "LadybirdBrowser/ladybird",
+      "subtitle": "C++ · ⭐ 61,515",
+      "summary": "Truly independent web browser（C++，⭐ 61,515）",
+      "reason": "C++ 生态值得关注，社区验证度高",
+      "url": "https://github.com/LadybirdBrowser/ladybird",
+      "imageUrl": "https://avatars.githubusercontent.com/u/134672918?v=4",
       "tags": [
-        "powershell",
+        "c++",
         "active",
         "trending"
       ],
-      "updatedAt": "2026-03-28T01:09:04.000Z"
+      "updatedAt": "2026-03-28T03:20:14.000Z"
     },
     {
-      "id": "replicate/cog",
-      "title": "replicate/cog",
-      "subtitle": "Go · ⭐ 9,287",
-      "summary": "Containers for machine learning（Go，⭐ 9,287）",
-      "reason": "Go 生态值得关注，近 7 天仍在活跃更新",
-      "url": "https://github.com/replicate/cog",
-      "tags": [
-        "go",
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T01:07:01.000Z"
-    },
-    {
-      "id": "aiming-lab/AutoResearchClaw",
-      "title": "aiming-lab/AutoResearchClaw",
-      "subtitle": "Python · ⭐ 9,117",
-      "summary": "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞（Python，⭐ 9,117）",
-      "reason": "Python 生态值得关注，近 7 天仍在活跃更新",
-      "url": "https://github.com/aiming-lab/AutoResearchClaw",
+      "id": "karpathy/autoresearch",
+      "title": "karpathy/autoresearch",
+      "subtitle": "Python · ⭐ 58,611",
+      "summary": "AI agents running research on single-GPU nanochat training automatically（Python，⭐ 58,611）",
+      "reason": "Python 生态值得关注，社区验证度高",
+      "url": "https://github.com/karpathy/autoresearch",
+      "imageUrl": "https://avatars.githubusercontent.com/u/241138?v=4",
       "tags": [
         "python",
         "active",
         "trending"
       ],
-      "updatedAt": "2026-03-28T00:57:30.000Z"
+      "updatedAt": "2026-03-28T03:21:19.000Z"
     },
     {
-      "id": "phuryn/pm-skills",
-      "title": "phuryn/pm-skills",
-      "subtitle": "未知技术栈 · ⭐ 8,279",
-      "summary": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.（未知技术栈，⭐ 8,279）",
-      "reason": "多技术栈 生态值得关注，近 7 天仍在活跃更新",
-      "url": "https://github.com/phuryn/pm-skills",
-      "tags": [
-        "active",
-        "trending"
-      ],
-      "updatedAt": "2026-03-28T00:57:45.000Z"
-    },
-    {
-      "id": "jackwener/opencli",
-      "title": "jackwener/opencli",
-      "subtitle": "TypeScript · ⭐ 8,086",
-      "summary": "Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to discover, learn, and execute tools seamlessly via a unified AGENT.md integration.（TypeScript，⭐ 8,086）",
-      "reason": "TypeScript 生态值得关注，近 7 天仍在活跃更新",
-      "url": "https://github.com/jackwener/opencli",
+      "id": "garrytan/gstack",
+      "title": "garrytan/gstack",
+      "subtitle": "TypeScript · ⭐ 52,626",
+      "summary": "Use Garry Tan's exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA（TypeScript，⭐ 52,626）",
+      "reason": "TypeScript 生态值得关注，社区验证度高",
+      "url": "https://github.com/garrytan/gstack",
+      "imageUrl": "https://avatars.githubusercontent.com/u/19957?v=4",
       "tags": [
         "typescript",
         "active",
         "trending"
       ],
-      "updatedAt": "2026-03-28T01:02:35.000Z"
+      "updatedAt": "2026-03-28T03:21:21.000Z"
     },
     {
-      "id": "pingdotgg/t3code",
-      "title": "pingdotgg/t3code",
-      "subtitle": "TypeScript · ⭐ 7,531",
-      "summary": "这是一个以 TypeScript 为主的开源项目，当前 Star 约 7,531，近期可重点关注其活跃更新。",
-      "reason": "TypeScript 生态值得关注，近 7 天仍在活跃更新",
-      "url": "https://github.com/pingdotgg/t3code",
+      "id": "jgm/pandoc",
+      "title": "jgm/pandoc",
+      "subtitle": "Haskell · ⭐ 42,922",
+      "summary": "Universal markup converter（Haskell，⭐ 42,922）",
+      "reason": "Haskell 生态值得关注，热度稳定上涨",
+      "url": "https://github.com/jgm/pandoc",
+      "imageUrl": "https://avatars.githubusercontent.com/u/3044?v=4",
+      "tags": [
+        "haskell",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:21:24.000Z"
+    },
+    {
+      "id": "ueberdosis/tiptap",
+      "title": "ueberdosis/tiptap",
+      "subtitle": "TypeScript · ⭐ 35,908",
+      "summary": "The headless rich text editor framework for web artisans.（TypeScript，⭐ 35,908）",
+      "reason": "TypeScript 生态值得关注，热度稳定上涨",
+      "url": "https://github.com/ueberdosis/tiptap",
+      "imageUrl": "https://avatars.githubusercontent.com/u/16939337?v=4",
       "tags": [
         "typescript",
         "active",
         "trending"
       ],
-      "updatedAt": "2026-03-28T01:05:19.000Z"
+      "updatedAt": "2026-03-28T03:19:48.000Z"
     },
     {
-      "id": "calesthio/Crucix",
-      "title": "calesthio/Crucix",
-      "subtitle": "JavaScript · ⭐ 7,132",
-      "summary": "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.（JavaScript，⭐ 7,132）",
-      "reason": "JavaScript 生态值得关注，近 7 天仍在活跃更新",
-      "url": "https://github.com/calesthio/Crucix",
+      "id": "paperclipai/paperclip",
+      "title": "paperclipai/paperclip",
+      "subtitle": "TypeScript · ⭐ 35,694",
+      "summary": "Open-source orchestration for zero-human companies（TypeScript，⭐ 35,694）",
+      "reason": "TypeScript 生态值得关注，热度稳定上涨",
+      "url": "https://github.com/paperclipai/paperclip",
+      "imageUrl": "https://avatars.githubusercontent.com/u/264498616?v=4",
+      "tags": [
+        "typescript",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:21:46.000Z"
+    },
+    {
+      "id": "HKUDS/CLI-Anything",
+      "title": "HKUDS/CLI-Anything",
+      "subtitle": "Python · ⭐ 23,949",
+      "summary": "CLI-Anything: Making ALL Software Agent-Native（Python，⭐ 23,949）",
+      "reason": "Python 生态值得关注，热度稳定上涨",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "imageUrl": "https://avatars.githubusercontent.com/u/118165258?v=4",
+      "tags": [
+        "python",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:21:17.000Z"
+    },
+    {
+      "id": "chromium/chromium",
+      "title": "chromium/chromium",
+      "subtitle": "C++ · ⭐ 23,286",
+      "summary": "The official GitHub mirror of the Chromium source（C++，⭐ 23,286）",
+      "reason": "C++ 生态值得关注，热度稳定上涨",
+      "url": "https://github.com/chromium/chromium",
+      "imageUrl": "https://avatars.githubusercontent.com/u/30044?v=4",
+      "tags": [
+        "c++",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:19:20.000Z"
+    },
+    {
+      "id": "googleworkspace/cli",
+      "title": "googleworkspace/cli",
+      "subtitle": "Rust · ⭐ 22,810",
+      "summary": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.（Rust，⭐ 22,810）",
+      "reason": "Rust 生态值得关注，热度稳定上涨",
+      "url": "https://github.com/googleworkspace/cli",
+      "imageUrl": "https://avatars.githubusercontent.com/u/3708359?v=4",
+      "tags": [
+        "rust",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:18:26.000Z"
+    },
+    {
+      "id": "mihomo-party-org/clash-party",
+      "title": "mihomo-party-org/clash-party",
+      "subtitle": "TypeScript · ⭐ 21,996",
+      "summary": ":electron: Another Mihomo GUI.（TypeScript，⭐ 21,996）",
+      "reason": "TypeScript 生态值得关注，热度稳定上涨",
+      "url": "https://github.com/mihomo-party-org/clash-party",
+      "imageUrl": "https://avatars.githubusercontent.com/u/181477152?v=4",
+      "tags": [
+        "typescript",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:19:38.000Z"
+    },
+    {
+      "id": "NVIDIA/NemoClaw",
+      "title": "NVIDIA/NemoClaw",
+      "subtitle": "JavaScript · ⭐ 17,320",
+      "summary": "Run OpenClaw more securely inside NVIDIA OpenShell with managed inference（JavaScript，⭐ 17,320）",
+      "reason": "JavaScript 生态值得关注，热度稳定上涨",
+      "url": "https://github.com/NVIDIA/NemoClaw",
+      "imageUrl": "https://avatars.githubusercontent.com/u/1728152?v=4",
       "tags": [
         "javascript",
         "active",
         "trending"
       ],
-      "updatedAt": "2026-03-28T01:00:46.000Z"
+      "updatedAt": "2026-03-28T03:18:39.000Z"
+    },
+    {
+      "id": "openai/symphony",
+      "title": "openai/symphony",
+      "subtitle": "Elixir · ⭐ 14,149",
+      "summary": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.（Elixir，⭐ 14,149）",
+      "reason": "Elixir 生态值得关注，热度稳定上涨",
+      "url": "https://github.com/openai/symphony",
+      "imageUrl": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "tags": [
+        "elixir",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:20:10.000Z"
+    },
+    {
+      "id": "tanweai/pua",
+      "title": "tanweai/pua",
+      "subtitle": "TypeScript · ⭐ 12,847",
+      "summary": "你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。 一个agent使用的高能动性的skill。 Your AI has been placed on a PIP. 30 days to show improvement.（TypeScript，⭐ 12,847）",
+      "reason": "TypeScript 生态值得关注，热度稳定上涨",
+      "url": "https://github.com/tanweai/pua",
+      "imageUrl": "https://avatars.githubusercontent.com/u/256783335?v=4",
+      "tags": [
+        "typescript",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:17:44.000Z"
+    },
+    {
+      "id": "Zettlr/Zettlr",
+      "title": "Zettlr/Zettlr",
+      "subtitle": "TypeScript · ⭐ 12,743",
+      "summary": "Your One-Stop Publication Workbench（TypeScript，⭐ 12,743）",
+      "reason": "TypeScript 生态值得关注，热度稳定上涨",
+      "url": "https://github.com/Zettlr/Zettlr",
+      "imageUrl": "https://avatars.githubusercontent.com/u/19707815?v=4",
+      "tags": [
+        "typescript",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:19:23.000Z"
+    },
+    {
+      "id": "THU-MAIC/OpenMAIC",
+      "title": "THU-MAIC/OpenMAIC",
+      "subtitle": "TypeScript · ⭐ 12,652",
+      "summary": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click（TypeScript，⭐ 12,652）",
+      "reason": "TypeScript 生态值得关注，热度稳定上涨",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "imageUrl": "https://avatars.githubusercontent.com/u/163809488?v=4",
+      "tags": [
+        "typescript",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:21:38.000Z"
+    },
+    {
+      "id": "lockfale/OSINT-Framework",
+      "title": "lockfale/OSINT-Framework",
+      "subtitle": "JavaScript · ⭐ 11,114",
+      "summary": "OSINT Framework（JavaScript，⭐ 11,114）",
+      "reason": "JavaScript 生态值得关注，热度稳定上涨",
+      "url": "https://github.com/lockfale/OSINT-Framework",
+      "imageUrl": "https://avatars.githubusercontent.com/u/871266?v=4",
+      "tags": [
+        "javascript",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:21:46.000Z"
+    },
+    {
+      "id": "manaflow-ai/cmux",
+      "title": "manaflow-ai/cmux",
+      "subtitle": "Swift · ⭐ 10,940",
+      "summary": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents（Swift，⭐ 10,940）",
+      "reason": "Swift 生态值得关注，热度稳定上涨",
+      "url": "https://github.com/manaflow-ai/cmux",
+      "imageUrl": "https://avatars.githubusercontent.com/u/171392238?v=4",
+      "tags": [
+        "swift",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:18:40.000Z"
+    },
+    {
+      "id": "microsoft/RustTraining",
+      "title": "microsoft/RustTraining",
+      "subtitle": "Rust · ⭐ 10,756",
+      "summary": "Beginner, advanced, expert level Rust training material（Rust，⭐ 10,756）",
+      "reason": "Rust 生态值得关注，热度稳定上涨",
+      "url": "https://github.com/microsoft/RustTraining",
+      "imageUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "tags": [
+        "rust",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:21:02.000Z"
+    },
+    {
+      "id": "aiming-lab/AutoResearchClaw",
+      "title": "aiming-lab/AutoResearchClaw",
+      "subtitle": "Python · ⭐ 9,139",
+      "summary": "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞（Python，⭐ 9,139）",
+      "reason": "Python 生态值得关注，近 7 天仍在活跃更新",
+      "url": "https://github.com/aiming-lab/AutoResearchClaw",
+      "imageUrl": "https://avatars.githubusercontent.com/u/186755503?v=4",
+      "tags": [
+        "python",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:16:11.000Z"
+    },
+    {
+      "id": "digitalinnovationone/dio-lab-open-source",
+      "title": "digitalinnovationone/dio-lab-open-source",
+      "subtitle": "Jupyter Notebook · ⭐ 8,521",
+      "summary": "Repositório do lab \"Contribuindo em um Projeto Open Source no GitHub\" da Digital Innovation One.（Jupyter Notebook，⭐ 8,521）",
+      "reason": "Jupyter Notebook 生态值得关注，近 7 天仍在活跃更新",
+      "url": "https://github.com/digitalinnovationone/dio-lab-open-source",
+      "imageUrl": "https://avatars.githubusercontent.com/u/26231823?v=4",
+      "tags": [
+        "jupyter notebook",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:17:48.000Z"
+    },
+    {
+      "id": "phuryn/pm-skills",
+      "title": "phuryn/pm-skills",
+      "subtitle": "未知技术栈 · ⭐ 8,281",
+      "summary": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.（未知技术栈，⭐ 8,281）",
+      "reason": "多技术栈 生态值得关注，近 7 天仍在活跃更新",
+      "url": "https://github.com/phuryn/pm-skills",
+      "imageUrl": "https://avatars.githubusercontent.com/u/7837354?v=4",
+      "tags": [
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T02:40:02.000Z"
+    },
+    {
+      "id": "jackwener/opencli",
+      "title": "jackwener/opencli",
+      "subtitle": "TypeScript · ⭐ 8,109",
+      "summary": "Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to discover, learn, and execute tools seamlessly via a unified AGENT.md integration.（TypeScript，⭐ 8,109）",
+      "reason": "TypeScript 生态值得关注，近 7 天仍在活跃更新",
+      "url": "https://github.com/jackwener/opencli",
+      "imageUrl": "https://avatars.githubusercontent.com/u/30525741?v=4",
+      "tags": [
+        "typescript",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:17:42.000Z"
+    },
+    {
+      "id": "calesthio/Crucix",
+      "title": "calesthio/Crucix",
+      "subtitle": "JavaScript · ⭐ 7,141",
+      "summary": "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.（JavaScript，⭐ 7,141）",
+      "reason": "JavaScript 生态值得关注，近 7 天仍在活跃更新",
+      "url": "https://github.com/calesthio/Crucix",
+      "imageUrl": "https://avatars.githubusercontent.com/u/213189893?v=4",
+      "tags": [
+        "javascript",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:18:58.000Z"
+    },
+    {
+      "id": "chengaopan/AutoMergePublicNodes",
+      "title": "chengaopan/AutoMergePublicNodes",
+      "subtitle": "Python · ⭐ 7,083",
+      "summary": "自动抓取合并互联网上的公开节点。 🚀 免费节点,🚀免费节点订阅,🚀v2ray免费节点,ssr免费节点订阅,clash免费节点订阅,免费梯子,免费翻墙,免费科学上网,免费ss/v2ray/trojan/clash节点,谷歌商店,翻墙梯子（Python，⭐ 7,083）",
+      "reason": "Python 生态值得关注，近 7 天仍在活跃更新",
+      "url": "https://github.com/chengaopan/AutoMergePublicNodes",
+      "imageUrl": "https://avatars.githubusercontent.com/u/18641281?v=4",
+      "tags": [
+        "python",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:19:07.000Z"
+    },
+    {
+      "id": "MiniMax-AI/skills",
+      "title": "MiniMax-AI/skills",
+      "subtitle": "C# · ⭐ 6,873",
+      "summary": "这是一个以 C# 为主的开源项目，当前 Star 约 6,873，近期可重点关注其活跃更新。",
+      "reason": "C# 生态值得关注，近 7 天仍在活跃更新",
+      "url": "https://github.com/MiniMax-AI/skills",
+      "imageUrl": "https://avatars.githubusercontent.com/u/194880281?v=4",
+      "tags": [
+        "c#",
+        "active",
+        "trending"
+      ],
+      "updatedAt": "2026-03-28T03:20:37.000Z"
     }
   ]
 }

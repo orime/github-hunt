@@ -1,0 +1,96 @@
+{
+  "generatedAt": "2026-03-28T03:21:51.082Z",
+  "latest": {
+    "date": "2026-03-28",
+    "outputs": {
+      "wechat": {
+        "label": "公众号草稿",
+        "type": "markdown",
+        "path": "/outputs/wechat/daily-2026-03-28.md"
+      },
+      "video": {
+        "label": "视频脚本",
+        "type": "markdown",
+        "path": "/outputs/video/daily-2026-03-28.md"
+      },
+      "report": {
+        "label": "每日报告",
+        "type": "markdown",
+        "path": "/outputs/reports/daily-2026-03-28.md"
+      },
+      "miniapp": {
+        "label": "小程序卡片",
+        "type": "json",
+        "path": "/outputs/miniapp/daily-2026-03-28.json"
+      },
+      "images": {
+        "label": "配图素材",
+        "type": "json",
+        "path": "/outputs/images/daily-2026-03-28.json"
+      }
+    }
+  },
+  "total": 2,
+  "entries": [
+    {
+      "date": "2026-03-28",
+      "outputs": {
+        "wechat": {
+          "label": "公众号草稿",
+          "type": "markdown",
+          "path": "/outputs/wechat/daily-2026-03-28.md"
+        },
+        "video": {
+          "label": "视频脚本",
+          "type": "markdown",
+          "path": "/outputs/video/daily-2026-03-28.md"
+        },
+        "report": {
+          "label": "每日报告",
+          "type": "markdown",
+          "path": "/outputs/reports/daily-2026-03-28.md"
+        },
+        "miniapp": {
+          "label": "小程序卡片",
+          "type": "json",
+          "path": "/outputs/miniapp/daily-2026-03-28.json"
+        },
+        "images": {
+          "label": "配图素材",
+          "type": "json",
+          "path": "/outputs/images/daily-2026-03-28.json"
+        }
+      }
+    },
+    {
+      "date": "2026-03-27",
+      "outputs": {
+        "wechat": {
+          "label": "公众号草稿",
+          "type": "markdown",
+          "path": "/outputs/wechat/daily-2026-03-27.md"
+        },
+        "video": {
+          "label": "视频脚本",
+          "type": "markdown",
+          "path": "/outputs/video/daily-2026-03-27.md"
+        },
+        "report": {
+          "label": "每日报告",
+          "type": "markdown",
+          "path": "/outputs/reports/daily-2026-03-27.md"
+        },
+        "miniapp": {
+          "label": "小程序卡片",
+          "type": "json",
+          "path": "/outputs/miniapp/daily-2026-03-27.json"
+        },
+        "images": {
+          "label": "配图素材",
+          "type": "json",
+          "path": "/outputs/images/daily-2026-03-27.json"
+        }
+      }
+    }
+  ]
+}

@@ -2,6 +2,10 @@ function normalizeText(input) {
   return (input ?? "").replace(/\s+/g, " ").trim();
 }
 
+function trimTrailingSlash(input) {
+  return String(input ?? "").replace(/\/+$/, "");
+}
+
 function escapeXml(input) {
   return String(input)
     .replace(/&/g, "&amp;")
@@ -49,6 +53,8 @@ export function toDailyItem(repo) {
     stars: Number(repo.stars) || 0,
     language: normalizeText(repo.language) || "未知技术栈",
     updatedAt: repo.updatedAt,
+    ownerAvatarUrl: normalizeText(repo.ownerAvatarUrl),
+    socialPreviewImageUrl: normalizeText(repo.socialPreviewImageUrl),
     tags: buildTags(repo)
   };
 }
@@ -64,6 +70,72 @@ export function buildDailyBundle({ repos, generatedAt, source, timezone = "Asia/
     source,
     total: items.length,
     items
+  };
+}
+
+export function buildPublicArtifacts(date, options = {}) {
+  const basePath = trimTrailingSlash(options.basePath);
+  const resolvePath = (relativePath) => {
+    const normalizedRelativePath = relativePath.startsWith("/") ? relativePath : `/${relativePath}`;
+    return basePath ? `${basePath}${normalizedRelativePath}` : normalizedRelativePath;
+  };
+
+  return {
+    wechat: {
+      label: "公众号草稿",
+      type: "markdown",
+      path: resolvePath(`outputs/wechat/daily-${date}.md`)
+    },
+    video: {
+      label: "视频脚本",
+      type: "markdown",
+      path: resolvePath(`outputs/video/daily-${date}.md`)
+    },
+    report: {
+      label: "每日报告",
+      type: "markdown",
+      path: resolvePath(`outputs/reports/daily-${date}.md`)
+    },
+    miniapp: {
+      label: "小程序卡片",
+      type: "json",
+      path: resolvePath(`outputs/miniapp/daily-${date}.json`)
+    },
+    images: {
+      label: "配图素材",
+      type: "json",
+      path: resolvePath(`outputs/images/daily-${date}.json`)
+    }
+  };
+}
+
+export function buildArchiveIndexEntry(bundle) {
+  return {
+    date: bundle.date,
+    generatedAt: bundle.generatedAt,
+    total: bundle.total,
+    source: bundle.source,
+    outputs: bundle.outputs ?? buildPublicArtifacts(bundle.date),
+    topRepos: bundle.items.slice(0, 5).map((item) => ({
+      id: item.id,
+      fullName: item.fullName,
+      language: item.language,
+      stars: item.stars,
+      summary: item.summary
+    }))
+  };
+}
+
+export function buildArchiveIndex(bundles, generatedAt = new Date().toISOString()) {
+  const entries = bundles
+    .map(buildArchiveIndexEntry)
+    .sort((left, right) => right.date.localeCompare(left.date));
+
+  return {
+    generatedAt,
+    latest: entries[0]?.date ?? null,
+    total: entries.length,
+    entries
   };
 }
 
@@ -121,6 +193,7 @@ export function buildMiniAppFeed({ date, items }) {
       summary: item.summary,
       reason: item.rationale,
       url: item.url,
+      imageUrl: item.socialPreviewImageUrl || item.ownerAvatarUrl,
       tags: item.tags,
       updatedAt: item.updatedAt
     }))
